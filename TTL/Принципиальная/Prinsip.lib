@@ -109,20 +109,20 @@ F2 "" 400 250 50 H I C CNN
 F3 "" 400 250 50 H I C CNN
 DRAW
 T 0 -200 400 50 0 0 0 1D Normal 0 C C
-T 0 200 300 50 0 0 0 1Q Normal 0 C C
 T 0 200 400 50 0 0 0 1Q Normal 0 C C
 T 0 -200 300 50 0 0 0 2D Normal 0 C C
-T 0 200 100 50 0 0 0 2Q Normal 0 C C
 T 0 200 200 50 0 0 0 2Q Normal 0 C C
 T 0 -200 200 50 0 0 0 3D Normal 0 C C
-T 0 200 -100 50 0 0 0 3Q Normal 0 C C
 T 0 200 0 50 0 0 0 3Q Normal 0 C C
 T 0 -200 100 50 0 0 0 4D Normal 0 C C
-T 0 200 -300 50 0 0 0 4Q Normal 0 C C
 T 0 200 -200 50 0 0 0 4Q Normal 0 C C
 T 0 -200 -400 50 0 0 0 CLK Normal 0 C C
 T 0 -200 -300 50 0 0 0 CLR Normal 0 C C
-T 0 0 400 50 0 0 0 T Normal 0 C C
+T 0 0 400 50 0 0 0 TT Normal 0 C C
+T 0 200 300 50 0 0 0 "~1Q" Normal 0 C C
+T 0 200 100 50 0 0 0 "~2Q" Normal 0 C C
+T 0 200 -100 50 0 0 0 "~3Q" Normal 0 C C
+T 0 200 -300 50 0 0 0 "~4Q" Normal 0 C C
 S -300 450 300 -450 0 0 0 N
 S -100 450 100 -450 0 0 0 N
 X ~ 1 -400 -300 100 R 50 50 1 1 I I

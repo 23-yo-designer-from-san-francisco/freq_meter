@@ -1530,4 +1530,12 @@ Wire Bus Line
 	9250 2050 9250 8250
 Wire Bus Line
 	11450 2050 11450 8250
+Text Notes 3550 5700 0    50   ~ 0
+VCC
+Text Notes 3550 5800 0    50   ~ 0
+GND
+Text Notes 3550 7050 0    50   ~ 0
+MCLK
+Text Notes 3550 7250 0    50   ~ 0
+GND
 $EndSCHEMATC

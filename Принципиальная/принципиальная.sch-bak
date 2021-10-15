@@ -1510,10 +1510,12 @@ Text Notes 1650 8450 0    50   ~ 0
 Контакт 8 микросхем DD2, DD3, DD4, DD5, \nDD10, DD11, DD12, DD13, DD14, DD15, DD16,\nDD17, DD18 \nподключить к VCC
 Entry Wire Line
 	2800 3500 2900 3600
-Text Notes 2850 3450 0    50   ~ 0
+Text Notes 3250 3600 0    50   ~ 0
 GND
 Wire Wire Line
 	2900 3600 3850 3600
+Entry Wire Line
+	3850 3600 3950 3700
 Wire Bus Line
 	7650 2050 7650 8250
 Wire Bus Line
@@ -1528,6 +1530,8 @@ Wire Bus Line
 	9250 2050 9250 8250
 Wire Bus Line
 	11450 2050 11450 8250
-Entry Wire Line
-	3850 3600 3950 3700
+Text Notes 3550 5700 0    50   ~ 0
+VCC
+Text Notes 3550 5800 0    50   ~ 0
+GND
 $EndSCHEMATC

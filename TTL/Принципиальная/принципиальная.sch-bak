@@ -1396,8 +1396,6 @@ Wire Wire Line
 	3250 3150 2950 3150
 Wire Wire Line
 	2800 3350 2800 3500
-Entry Bus Bus
-	3850 3600 3950 3700
 Entry Wire Line
 	2800 3500 2900 3600
 Wire Wire Line
@@ -1512,12 +1510,16 @@ Text Notes 1650 8000 0    50   ~ 0
 Контакт 16 микросхем DD2, DD3, DD4, DD5, \nDD10, DD11, DD12, DD13, DD14, DD15, DD16,\nDD17, DD18 \nподключить к VCC
 Text Notes 1650 8450 0    50   ~ 0
 Контакт 8 микросхем DD2, DD3, DD4, DD5, \nDD10, DD11, DD12, DD13, DD14, DD15, DD16,\nDD17, DD18 \nподключить к VCC
-Wire Bus Line
+Wire Wire Line
 	2900 3600 3850 3600
-Wire Bus Line
-	7650 2050 7650 8250
+Entry Wire Line
+	3850 3600 3950 3700
+Text Notes 3250 3600 0    50   ~ 0
+GND
 Wire Bus Line
 	4050 8350 13600 8350
+Wire Bus Line
+	7650 2050 7650 8250
 Wire Bus Line
 	6100 2050 6100 8250
 Wire Bus Line

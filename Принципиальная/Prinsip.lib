@@ -114,15 +114,15 @@ T 0 -200 400 50 0 0 0 P0 Normal 0 C C
 T 0 -200 300 50 0 0 0 P1 Normal 0 C C
 T 0 -200 200 50 0 0 0 P2 Normal 0 C C
 T 0 -200 100 50 0 0 0 P3 Normal 0 C C
-T 0 200 300 50 0 0 0 Q0 Normal 0 C C
 T 0 200 400 50 0 0 0 Q0 Normal 0 C C
-T 0 200 100 50 0 0 0 Q1 Normal 0 C C
 T 0 200 200 50 0 0 0 Q1 Normal 0 C C
-T 0 200 -100 50 0 0 0 Q2 Normal 0 C C
 T 0 200 0 50 0 0 0 Q2 Normal 0 C C
-T 0 200 -300 50 0 0 0 Q3 Normal 0 C C
 T 0 200 -200 50 0 0 0 Q3 Normal 0 C C
-T 0 0 400 50 0 0 0 T Normal 0 C C
+T 0 0 400 50 0 0 0 TT Normal 0 C C
+T 0 200 300 50 0 0 0 "~Q0" Normal 0 C C
+T 0 200 100 50 0 0 0 "~Q1" Normal 0 C C
+T 0 200 -100 50 0 0 0 "~Q2" Normal 0 C C
+T 0 200 -300 50 0 0 0 "~Q3" Normal 0 C C
 S -300 450 300 -450 0 0 0 N
 S -100 450 100 -450 0 0 0 N
 X ~ 1 -300 -300 100 L 50 50 1 1 I
