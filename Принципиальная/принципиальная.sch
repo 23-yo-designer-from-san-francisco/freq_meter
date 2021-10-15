@@ -1349,17 +1349,6 @@ F 3 "~" H 2775 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
-U 1 1 620F9ED4
-P 2800 2000
-F 0 "R1" V 2593 2000 50  0000 C CNN
-F 1 "R" V 2684 2000 50  0001 C CNN
-F 2 "" V 2730 2000 50  0001 C CNN
-F 3 "~" H 2800 2000 50  0001 C CNN
-	1    2800 2000
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 6210EC36
 P 3250 2800
@@ -1516,6 +1505,14 @@ Wire Wire Line
 	2900 3600 3850 3600
 Entry Wire Line
 	3850 3600 3950 3700
+Text Notes 3550 5700 0    50   ~ 0
+VCC
+Text Notes 3550 5800 0    50   ~ 0
+GND
+Text Notes 3550 7050 0    50   ~ 0
+MCLK
+Text Notes 3550 7250 0    50   ~ 0
+GND
 Wire Bus Line
 	7650 2050 7650 8250
 Wire Bus Line
@@ -1530,12 +1527,15 @@ Wire Bus Line
 	9250 2050 9250 8250
 Wire Bus Line
 	11450 2050 11450 8250
-Text Notes 3550 5700 0    50   ~ 0
-VCC
-Text Notes 3550 5800 0    50   ~ 0
-GND
-Text Notes 3550 7050 0    50   ~ 0
-MCLK
-Text Notes 3550 7250 0    50   ~ 0
-GND
+$Comp
+L Device:R R1
+U 1 1 620F9ED4
+P 2800 2000
+F 0 "R1" V 2593 2000 50  0000 C CNN
+F 1 "R" V 2684 2000 50  0001 C CNN
+F 2 "" V 2730 2000 50  0001 C CNN
+F 3 "~" H 2800 2000 50  0001 C CNN
+	1    2800 2000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
