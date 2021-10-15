@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Приципиальная-rescue)(type Legacy)(uri ${KIPRJMOD}/Приципиальная-rescue.lib)(options "")(descr ""))
+)

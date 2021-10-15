@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Prinsip)(type Legacy)(uri ${KIPRJMOD}/Prinsip.lib)(options "")(descr ""))
+  (lib (name курс-rescue)(type Legacy)(uri ${KIPRJMOD}/курс-rescue.lib)(options "")(descr ""))
+)

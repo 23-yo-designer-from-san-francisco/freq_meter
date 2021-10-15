@@ -1,0 +1,79 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Приципиальная-rescue_cnt-Prinsip2
+#
+DEF Приципиальная-rescue_cnt-Prinsip2 U 0 40 Y Y 1 F N
+F0 "U" -350 150 50 H V C CNN
+F1 "Приципиальная-rescue_cnt-Prinsip2" -500 200 50 H V C CNN
+F2 "" -350 150 50 H I C CNN
+F3 "" -350 150 50 H I C CNN
+DRAW
+T 0 -350 -450 79 0 0 0 CLC Normal 0 C C
+T 0 0 550 79 0 0 0 CNT10 Normal 0 C C
+T 0 350 -450 79 0 0 0 CR Normal 0 C C
+T 0 -400 350 79 0 0 0 R Normal 0 C C
+S -500 650 500 -650 0 0 0 N
+P 6 0 0 0 550 500 650 500 600 500 600 -250 550 -250 650 -250 N
+X ~ ~ -600 -450 100 R 50 50 1 1 I
+X ~ ~ -600 350 100 R 50 50 1 1 I
+X ~ ~ 600 -450 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Приципиальная-rescue_cnt16
+#
+DEF Приципиальная-rescue_cnt16 U 0 40 Y Y 1 F N
+F0 "U" -350 150 50 H V C CNN
+F1 "Приципиальная-rescue_cnt16" -500 200 50 H V C CNN
+F2 "" -350 150 50 H I C CNN
+F3 "" -350 150 50 H I C CNN
+DRAW
+T 0 -350 -450 79 0 0 0 CLC Normal 0 C C
+T 0 0 550 79 0 0 0 CNT16 Normal 0 C C
+T 0 350 -450 79 0 0 0 CR Normal 0 C C
+T 0 -400 350 79 0 0 0 R Normal 0 C C
+S -500 650 500 -650 0 0 0 N
+P 6 0 0 0 550 500 650 500 600 500 600 -250 550 -250 650 -250 N
+X ~ ~ -600 -450 100 R 50 50 1 1 I
+X ~ ~ -600 350 100 R 50 50 1 1 I
+X ~ ~ 600 -450 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Приципиальная-rescue_reg-Prinsip2
+#
+DEF Приципиальная-rescue_reg-Prinsip2 U 0 40 Y Y 1 F N
+F0 "U" -500 100 50 H V C CNN
+F1 "Приципиальная-rescue_reg-Prinsip2" -500 100 50 H V C CNN
+F2 "" -500 100 50 H I C CNN
+F3 "" -500 100 50 H I C CNN
+DRAW
+T 0 -450 -450 79 0 0 0 C Normal 0 C C
+T 0 0 500 79 0 0 0 REG Normal 0 C C
+S -500 650 500 -650 0 0 0 N
+P 6 0 0 0 -650 400 -550 400 -600 400 -600 -200 -650 -200 -550 -200 N
+P 6 0 0 0 550 400 650 400 600 400 600 -400 650 -400 550 -400 N
+X ~ ~ -600 -450 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Приципиальная-rescue_time-counter
+#
+DEF Приципиальная-rescue_time-counter U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Приципиальная-rescue_time-counter" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 50 -250 79 0 0 0 "Заданное время" Normal 0 C C
+S -600 -100 600 -400 0 0 0 N
+S 150 -250 150 -250 0 1 0 N
+X ~ IN1 -600 -150 100 L 50 50 1 1 I
+X ~ IN2 -600 -250 100 L 50 50 1 1 I
+X ~ IN3 -600 -350 100 L 50 50 1 1 I
+X ~ rst 600 -250 118 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
